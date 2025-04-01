@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const App = () => {
-  return <div className="text-bg-danger">App</div>;
+  return <div></div>;
 };
 
 export default App;
