@@ -6,14 +6,15 @@ const Cardegorias = () => {
     <div className={styles.card2}>
       <div>
         <img
-          className="rounded-top-2"
-          src="https://placehold.co/320x230"
+          className="rounded-top-4"
+          src="https://placehold.co/265x190"
           alt=""
         />
       </div>
       <div className="m-2">
-        <div className="m-1 mt-3">
-          <FaStar size={20} /> <FaStar size={20} /> <FaStar size={20} /> <FaStar size={20} /> <FaStar size={20} />
+        <div className="m-1 mt-2">
+          <FaStar size={18} /> <FaStar size={18} /> <FaStar size={18} />{" "}
+          <FaStar size={18} /> <FaStar size={18} />
         </div>
         <div className="d-flex justify-content-between align-items-center m-1">
           <div>

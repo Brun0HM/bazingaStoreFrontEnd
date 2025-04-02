@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import NavBar from "./components/navBar/NavBar";
 import NaoEncontrado from "./pages/NaoEncontrado";
 import Cart from "./pages/Cart";
-import Cup from "./pages/Cup";
+import Cup from "./pages/Cup.jsx";
 import Shirt from "./pages/Shirt";
 import Figure from "./pages/Figure";
 import Picture from "./pages/Picture";
@@ -17,12 +17,12 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-       <Cardegorias />
+        <NavBar />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/carts" element={<Cart />} />
-            <Route path="/cups" element={<Cup />} />
+            <Route path="/Cup" element={<Cup />} />
             <Route path="/shirts" element={<Shirt />} />
             <Route path="/figures" element={<Figure />} />
             <Route path="/pictures" element={<Picture />} />
