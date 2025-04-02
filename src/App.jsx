@@ -1,13 +1,19 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import Header from "./assets/components/header/Header";
+import Cardegorias from "./components/cardegoria/Cardegorias";
 
 const App = () => {
-  return <div>
+  return(
+<>
+<div className="bg-black">
+  <Cardegorias />
+</div>
+</>
 
-    <Header />
-  </div>;
+
+  );
+ 
 };
 
 export default App;
