@@ -9,11 +9,13 @@ const NavBar = (props) => {
         <main>
           {/* <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/cart" element={<Sobre />} />
-            <Route path="/cup" element={<Contato />} />
-            <Route path="/shirt" element={<Contato />} />
-            <Route path="/figure" element={<Contato />} />
-            <Route path="/picture" element={<Contato />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/cup" element={<Cup />} />
+            <Route path="/shirt" element={<Shirt />} />
+            <Route path="/figure" element={<Figure />} />
+            <Route path="/picture" element={<Picture />} />
+            <Route path="/Config" element={<Config />} />
+
 
             <Route path="*" element={<NaoEncontrado />} />
           </Routes> */}
