@@ -11,13 +11,16 @@ import Figure from "./pages/Figure";
 import Picture from "./pages/Picture";
 import Config from "./pages/Config";
 import Home from "./pages/Home";
+import logoM from "./assets/logo.svg";
 import Cardegorias from "./components/cardegoria/Cardegorias";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <NavBar />
+        <NavBar
+          logo={logoM}
+        />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
