@@ -7,6 +7,7 @@ import { GiAlienStare } from "react-icons/gi";
 import { SlPicture } from "react-icons/sl";
 import { IoSettings } from "react-icons/io5";
 import styles from "./NavBar.module.css";
+import { RiBrushFill } from "react-icons/ri";
 // Removed unused styles import
 
 const NavBar = (props) => {
@@ -42,17 +43,19 @@ const NavBar = (props) => {
           </li>
           <li>
             <Link to="/Picture" className="nav-link text-dark mb-3">
-              <SlPicture size={30} />
+              <RiBrushFill size={30} />
             </Link>
           </li>
         </ul>
       </div>
-      <Link
-        to="/Settings"
-        className="nav-link text-dark align-baseline mt-auto mb-5"
-      >
-        <IoSettings size={30} />
-      </Link>
+      <div className={styles.efeito}>
+        <Link
+          to="/Settings"
+          className="nav-link text-dark align-baseline mt-auto mb-5"
+        >
+          <IoSettings size={30} />
+        </Link>
+      </div>
     </aside>
   );
 };
