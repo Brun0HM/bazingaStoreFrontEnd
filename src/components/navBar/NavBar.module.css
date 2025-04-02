@@ -11,3 +11,16 @@
   color: #8e1616;
   transition: color 0.3s ease;
 }
+
+.hamburger-icon span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: black;
+  margin-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-icon span:last-child {
+  margin-bottom: 0;
+}

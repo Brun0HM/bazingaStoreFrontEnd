@@ -16,7 +16,7 @@ import Cardegorias from "./components/cardegoria/Cardegorias";
 
 const App = () => {
   return (
-    <div>
+    <div className="d-flex">
       <BrowserRouter>
         <NavBar
           logo={logoM}
