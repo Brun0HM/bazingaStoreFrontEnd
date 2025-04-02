@@ -1,27 +1,47 @@
+import { Link } from "react-router";
 import styles from "./NavBar.module.css";
 
 const NavBar = (props) => {
   return (
-    <div className="bg-white vh-100  position-fixed">
-      <img className="" src={props.logo} alt="Logo bazinga store" />
-      <div className="d-flex flex-column justify-content-center align-items-center"></div>
-      <BrowserRouter>
-        <main>
-          {/* <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/cup" element={<Cup />} />
-            <Route path="/shirt" element={<Shirt />} />
-            <Route path="/figure" element={<Figure />} />
-            <Route path="/picture" element={<Picture />} />
-            <Route path="/Config" element={<Config />} />
-
-
-            <Route path="*" element={<NaoEncontrado />} />
-          </Routes> */}
-        </main>
-      </BrowserRouter>
-    </div>
+    <aside
+      className="bg-white vh-100 position-fixed d-flex flex-column align-items-center"
+      style={{ width: "250px", left: "0", top: "0" }}
+    >
+      <img className="my-4 " src={props.logo} alt="Logo Bazinga Store" />
+      <div className="d-flex flex-column">
+        <ul className="navbar-nav">
+          <li>
+            <Link to="/Home" className="nav-link text-dark">
+              home
+            </Link>
+          </li>
+          <li>
+            <Link to="/Cart" className="nav-link text-dark">
+              Cart
+            </Link>
+          </li>
+          <li>
+            <Link to="/Cup" className="nav-link text-dark">
+              Cup
+            </Link>
+          </li>
+          <li>
+            <Link to="/Shirt" className="nav-link text-dark">
+              Shirt
+            </Link>
+          </li>
+          <li>
+            <Link to="/Figure" className="nav-link text-dark">
+              Figure            </Link>
+          </li>
+          <li>
+            <Link to="/Picture" className="nav-link text-dark">
+              Picture
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </aside>
   );
 };
 
