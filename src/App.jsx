@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <NavBar />
+       <Cardegorias />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
