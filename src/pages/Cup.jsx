@@ -1,18 +1,25 @@
-import styles from './Cup.module.css'
-import Cardegorias from '../components/cardegoria/Cardegorias'
+import styles from "./Cup.module.css";
+import Cardegorias from "../components/cardegoria/Cardegorias";
 const Cup = () => {
   return (
-   <>
-   <div className={styles.list}>
-    <div>
-      <h1 className='mb-5 m-4'>CategoriaNome</h1>
-    </div>
-    <div>  
-      <Cardegorias />   
-    </div>
-   </div>
-   </>
-  )
-}
+    <>
+      <div className={styles.list}>
+        <div>
+          <h1 className="mb-5 text-light">CategoriaNome</h1>
+        </div>
+        <div className={styles.categorias}>
+          <Cardegorias />
+          <Cardegorias />
+          <Cardegorias />
+          <Cardegorias />
+          <Cardegorias />
+          <Cardegorias />
+          <Cardegorias />
+          <Cardegorias />
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Cup
+export default Cup;

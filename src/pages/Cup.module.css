@@ -1,7 +1,17 @@
-.list{
-    margin-left:300px;
+.list {
+  margin-left: 90px;
+  background-color: #d84040;
 }
-.list h1{
-    font-size: 7vw;
-    font-weight: 900;
+.list h1 {
+  font-size: 6vw;
+  font-weight: 900;
+  margin-left: 150px;
+}
+
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  gap: 30px;
+  margin-bottom: 50px;
 }
