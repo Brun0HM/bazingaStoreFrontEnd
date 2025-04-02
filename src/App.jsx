@@ -29,6 +29,11 @@ const App = () => {
             <Route path="/shirts" element={<Shirt />} />
             <Route path="/figures" element={<Figure />} />
             <Route path="/pictures" element={<Picture />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/cup" element={<Cup />} />
+            <Route path="/shirt" element={<Shirt />} />
+            <Route path="/figure" element={<Figure />} />
+            <Route path="/picture" element={<Picture />} />
             <Route path="/Config" element={<Config />} />
             <Route path="*" element={<NaoEncontrado />} />
           </Routes>
