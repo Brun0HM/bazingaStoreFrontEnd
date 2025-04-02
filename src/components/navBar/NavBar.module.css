@@ -1,9 +1,13 @@
-.alinhar{
-margin: auto 0;
+.alinhar {
+  margin: auto 0;
 }
 
-.alinhar :hover{
-    color: #8e1616;
-    transition: color 0.3s ease;
+.alinhar :hover {
+  color: #8e1616;
+  transition: color 0.3s ease;
 }
 
+.efeito :hover {
+  color: #8e1616;
+  transition: color 0.3s ease;
+}
