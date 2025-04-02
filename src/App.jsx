@@ -33,16 +33,6 @@ const App = () => {
       </BrowserRouter>
     </div>
   );
-  return(
-<>
-<div className="bg-black">
-  <Cardegorias />
-</div>
-</>
-
-
-  );
- 
 };
 
 export default App;
